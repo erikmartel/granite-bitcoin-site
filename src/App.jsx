@@ -44,7 +44,7 @@ export default function App() {
           </div>
 
           {/* Desktop nav */}
-          <nav className="hidden md:flex items-center space-x-7 text-black mr-5 text-lgtext-lg">
+          <nav className="hidden md:flex items-center space-x-7 text-black mr-5 ">
             <Link to="/services" className="font-serif hover:text-amber-600">
               Services
             </Link>

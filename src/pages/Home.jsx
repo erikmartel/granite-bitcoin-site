@@ -115,7 +115,7 @@ export default function Home() {
         viewport={{ once: true }}
       >
         <div className="max-w-6xl mx-auto px-6">
-          <div className="max-w-3xl mx-auto">
+          <div className="max-w-4xl mx-auto">
             <BookingForm />
           </div>
         </div>

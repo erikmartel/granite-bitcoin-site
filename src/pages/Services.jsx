@@ -132,9 +132,9 @@ export default function Services() {
         viewport={{ once: true }}
       >
         <div className="max-w-4xl mx-auto px-6">
-          <h2 className="text-3xl font-serif mb-4">Ready to strengthen your foundation?</h2>
+          <h2 className="text-3xl font-serif mb-4">Ready to take full control?</h2>
           <p className="text-gray-700 mb-8">
-            Start your Bitcoin journey with guidance grounded in trust, clarity, and security.
+          Take true ownership of your bitcoin with guidance grounded in clarity, security, and independence.
           </p>
           <Link
             to="/booking"

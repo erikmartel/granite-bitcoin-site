@@ -25,7 +25,7 @@ export default function Company() {
     {
       icon: <Lock className="w-8 h-8 text-white mx-auto mb-4" />,
       title: "Privacy & Autonomy",
-      desc: "You maintain full confidentiality and control. We never observe, handle, or inquire about your holdings. Our role is to guide, not to manage.",
+      desc: "You maintain full confidentiality and control. We never observe, touch, or inquire about your holdings. Our role is to guide, not to manage.",
     },
     {
       icon: <Eye className="w-8 h-8 text-white mx-auto mb-4" />,
@@ -61,7 +61,7 @@ export default function Company() {
     <div className="bg-black/60 backdrop-blur-lg border border-white/20 rounded-2xl shadow-lg p-10 md:p-14 hover:bg-black/80 transition-all duration-300">
       <h1 className="text-4xl md:text-5xl font-serif mb-6 text-white">Our Mission</h1>
       <p className="text-lg md:text-xl text-gray-100 mb-4">
-        At Granite Bitcoin, our mission is to empower you to own Bitcoin the way it was meant to be owned—without risky reliance on third-parties.
+        At Granite Bitcoin, our mission is to empower you to use and own Bitcoin the way it was meant to be — without risky reliance on third-parties.
       </p>
       <p className="text-lg md:text-xl text-gray-100">
         Through high-signal education and proven practices, we make self-custody simple and secure, so you can preserve your wealth with true independence.
@@ -156,7 +156,7 @@ export default function Company() {
         <div className="max-w-4xl mx-auto px-6">
           <h2 className="text-3xl font-serif mb-4">Ready to strengthen your foundation?</h2>
           <p className="text-gray-700 mb-8">
-            Start your Bitcoin journey with guidance grounded in trust, clarity, and security.
+          Take true ownership of your bitcoin with guidance grounded in clarity, security, and independence.
           </p>
           <Link
             to="/booking"

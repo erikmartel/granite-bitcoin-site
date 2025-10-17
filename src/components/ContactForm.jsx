@@ -72,7 +72,7 @@ export default function ContactForm() {
             />
 
             <textarea
-              name="message"
+              name="additional_comments"
               placeholder="Message"
               rows="5"
               required

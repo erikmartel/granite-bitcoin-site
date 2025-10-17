@@ -135,7 +135,7 @@ export default function ProcessTimeline() {
   };
 
   return (
-    <section className="pt-20 pb-10 bg-white" ref={containerRef}>
+    <section className="pt-20 pb-10 bg-gray-50" ref={containerRef}>
       <div className="max-w-7xl mx-auto px-6">
         <h2 className="text-4xl font-serif text-center mb-16 text-gray-900">
           Our Process
