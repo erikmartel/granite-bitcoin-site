@@ -52,7 +52,7 @@ export default function ProcessTimeline() {
         deliverables: [
           "Fully configured hardware wallet",
           "Secure seed phrase backup",
-          "SimpleSecurity Checklist",
+          "GBA SimpleSecurity Checklist",
         ],
         included: [
           "Hardware wallet unboxing and setup",
@@ -163,7 +163,7 @@ export default function ProcessTimeline() {
                     <div className="relative z-10">
                       <div className="absolute -top-8 left-1/2 -translate-x-1/2 whitespace-nowrap">
                         <span className="text-xs font-semibold tracking-wide text-gray-900">
-                          STEP {step.number}
+                        SESSION {step.number}
                         </span>
                       </div>
 

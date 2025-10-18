@@ -28,7 +28,7 @@ export default function PackageSection() {
       <div className="absolute inset-0 " />
 
       {/* Content wrapper */}
-      <div className="relative max-w-6xl mx-auto px-6 lg:px-8">
+      <div className="relative max-w-6xl mx-auto px-5 lg:px-8 -mt-5">
         <motion.div
           className="grid lg:grid-cols-2 gap-12 items-start"
           initial="hidden"
@@ -62,7 +62,7 @@ export default function PackageSection() {
 
           {/* RIGHT SIDE — Frosted Glass Card */}
           <motion.div
-            className="bg-black/70 backdrop-blur-md border border-white/20 rounded-2xl p-10 shadow-lg hover:bg-black/80 transition-all duration-300"
+            className="bg-black/70 backdrop-blur-md border border-white/20 rounded-2xl p-6 shadow-lg hover:bg-black/80 transition-all duration-300"
             initial="hidden"
             whileInView="visible"
             variants={fadeIn}

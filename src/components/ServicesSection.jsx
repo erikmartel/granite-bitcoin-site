@@ -12,8 +12,8 @@ const pillars = [
     listTitle: "Discover:",
     listItems: [
       "Core principles and properties of Bitcoin, self-custody, and operational security",
-      "The history, evolution, and properties of money, and how Bitcoin fits into the picture",
-      "The history, function, and byproducts of the current fiat monetary system",
+      "The evolution of money and how Bitcoin fits into the picture",
+      "The function and byproducts of our fiat monetary system",
     ],
     cta: "Start Learning",
   },
@@ -21,7 +21,7 @@ const pillars = [
     word: "Save",
     tagline: "Transform and Preserve Your Wealth",
     description:
-      "There are multiple ways to acquire, access and store bitcoin, with trade-offs for each. We help you choose the best combination for your situation.",
+      "There are multiple ways to acquire, access and store bitcoin, with trade-offs for each. We help you choose the best solution for your situation.",
     listTitle: "Guidance on:",
     listItems: [
       "Acquisition methods and services",
@@ -34,13 +34,13 @@ const pillars = [
     word: "Secure",
     tagline: "Control and Protect Your Assets",
     description:
-      "The ability to self-custody is one of the most important features of Bitcoin. We provide personalized training that ensures your Bitcoin remains yours, regardless of market, hardware, or life events.",
+      "The ability to take self-custody is one of the most important features of Bitcoin. Our personalized training enables you to protect your bitcoin, regardless of market, hardware, or life events.",
     listTitle: "Guidance on:",
     listItems: [
       "Initial, secure self-custody setup",
       "Proven backup strategies",
       "Standard operating procedures to avoid scams and human error",
-      "Recovering access safely and privately",
+      "Safe and private recovery processes",
     ],
     cta: "Book a Consultation",
   },
@@ -52,7 +52,7 @@ const pillars = [
     listTitle: "Guidance on:",
     listItems: [
       "Long-term stewardship and cold storage planning",
-      "Inheritance planning and multi-signature setups",
+      "Inheritance plans and multi-signature setups",
       "New developments and trends in a changing global economy",
     ],
     cta: "Book a Consultation",

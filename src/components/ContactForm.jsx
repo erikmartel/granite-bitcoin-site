@@ -43,7 +43,7 @@ export default function ContactForm() {
       {/* Subtle overlay for readability */}
       <div className="absolute inset-0 " />
 
-      <div className="relative max-w-3xl w-full mx-auto text-center -mt-20">
+      <div className="relative max-w-3xl w-full mx-auto text-center">
 
         {/* Frosted Glass Card */}
         <div className="bg-black/70 backdrop-blur-lg border border-white/20 rounded-2xl shadow-lg p-10 md:p-14 hover:bg-black/80 transition-all duration-300">

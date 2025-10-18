@@ -52,7 +52,7 @@ export default function Home() {
           className="relative max-w-5xl px-6"
         >
           <h1 className="text-4xl md:text-6xl font-serif mb-4 text-black">
-            Safe, Simple Bitcoin Ownership.
+            Safe, Simple Bitcoin Ownership
           </h1>
           <p className="text-lg md:text-xl mb-6 text-black">
             We help you understand, manage and secure  Bitcoin properly.
@@ -93,7 +93,7 @@ export default function Home() {
         <h3 className="text-4xl font-serif mb-6">Why Granite?</h3>
         <p className="max-w-3xl mx-auto text-lg text-gray-100">
           Based in New Hampshire — the Granite State — we stand for resilience, dependability,
-          and freedom. Granite Bitcoin helps you navigate Bitcoin with clarity and confidence,
+          and freedom. GBA helps you navigate Bitcoin with clarity and confidence,
           while avoiding hype and confusion.
         </p>
           <a
@@ -114,7 +114,7 @@ export default function Home() {
         variants={fadeIn}
         viewport={{ once: true }}
       >
-        <div className="max-w-6xl mx-auto px-6">
+        <div className="max-w-6xl mx-auto px-2">
           <div className="max-w-4xl mx-auto">
             <BookingForm />
           </div>

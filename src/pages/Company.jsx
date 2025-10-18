@@ -125,7 +125,7 @@ export default function Company() {
     {/* Frosted Glass Card */}
     <div className="max-w-3xl w-full mx-auto bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl shadow-2xl p-10 text-center hover:bg-white/20 transition-all duration-300">
       <img
-        src="src/assets/images/profile-pic.jpg"
+        src="/profile-pic.jpg"
         alt="Founder"
         className="w-40 h-40 mx-auto rounded-full mb-6 shadow-lg object-cover border-2 border-white/20"
       />
