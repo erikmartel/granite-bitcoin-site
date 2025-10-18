@@ -61,10 +61,10 @@ export default function Company() {
     <div className="bg-black/60 backdrop-blur-lg border border-white/20 rounded-2xl shadow-lg p-10 md:p-14 hover:bg-black/80 transition-all duration-300">
       <h1 className="text-4xl md:text-5xl font-serif mb-6 text-white">Our Mission</h1>
       <p className="text-lg md:text-xl text-gray-100 mb-4">
-        At Granite Bitcoin, our mission is to empower you to use and own Bitcoin the way it was meant to be — without risky reliance on third-parties.
+        At Granite Bitcoin, our mission is to empower you to own Bitcoin the way you were meant to — without risky reliance on third-parties.
       </p>
       <p className="text-lg md:text-xl text-gray-100">
-        Through high-signal education and proven practices, we make self-custody simple and secure, so you can preserve your wealth with true independence.
+        Through high-signal education and proven practices, we make self-custody simple and secure so you can preserve your wealth with true independence.
       </p>
     </div>
   </div>

@@ -108,7 +108,7 @@ export default function Home() {
       {/* BOOKING */}
       <motion.section
         id="contact"
-        className="py-16 bg-gradient-to-tr from-black to-black/80 -mb-10"
+        className="py-16 bg-gradient-to-tr from-black to-black/80 -mb-20"
         initial="hidden"
         whileInView="visible"
         variants={fadeIn}
