@@ -25,8 +25,7 @@ export default function Booking() {
         }}
       />
 
-      {/* Optional dark overlay for readability */}
-      <div className="absolute inset-0 bg-black/30" />
+
 
       {/* Foreground content */}
       <motion.div
