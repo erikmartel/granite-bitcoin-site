@@ -90,7 +90,7 @@ export default function AdditionalServices() {
               help you strengthen and expand your sovereignty — from personal privacy tools to planning for future unknowns.
             </p>
             <a
-              href="/contact"
+              href="/booking"
               className="self-center lg:self-start inline-block bg-[#F7931A] hover:bg-amber-600 text-white font-semibold px-8 py-3 rounded-lg shadow transition-transform duration-200 hover:scale-[1.02]"
             >
               Schedule a Consultation

@@ -18,7 +18,8 @@ export default function Contact() {
   };
 
   return (
-    <section className="relative h-[85vh] sm:h-[90vh] md:h-[95vh] flex flex-col items-center justify-center text-center overflow-hidden pt-20 md:pt-28">
+    <section className="relative min-h-[85vh] sm:min-h-[90vh] md:min-h-[95vh] flex flex-col items-center justify-center text-center overflow-visible pt-24 md:pt-32 pb-16">
+
 
       {/* Hero Background */}
       <div
@@ -37,7 +38,7 @@ export default function Contact() {
         whileInView="visible"
         variants={fadeIn}
         viewport={{ once: true }}
-        className="relative z-10 w-full max-w-3xl px-3 mb-20"
+        className="relative z-10 w-full max-w-3xl py-10 px-3 mb-20"
       >
         <ContactForm />
       </motion.div>
