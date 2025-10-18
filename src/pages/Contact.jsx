@@ -18,8 +18,7 @@ export default function Contact() {
   };
 
   return (
-    <section className="relative min-h-[85vh] sm:min-h-[90vh] md:min-h-[95vh] flex flex-col items-center justify-center text-center overflow-visible pt-24 md:pt-32 pb-16">
-
+    <section className="relative h-[85vh] sm:h-[90vh] md:h-[95vh] flex flex-col items-center justify-center text-center overflow-hidden pt-20 md:pt-28">
 
       {/* Hero Background */}
       <div
