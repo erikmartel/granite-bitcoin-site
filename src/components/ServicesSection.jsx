@@ -13,7 +13,7 @@ const pillars = [
     listItems: [
       "Core principles and properties of Bitcoin, self-custody, and operational security",
       "The evolution of money and how Bitcoin fits into the picture",
-      "The function and byproducts of our fiat monetary system",
+      "The function and byproducts of our current fiat monetary system",
     ],
     cta: "Start Learning",
   },

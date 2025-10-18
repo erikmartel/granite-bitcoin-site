@@ -21,14 +21,14 @@ export default function PackageSection() {
   return (
     <section
       id="package"
-      className="relative py-24 bg-cover bg-center bg-no-repeat"
+      // ↓ Reduce vertical padding on mobile, keep same on desktop
+      className="relative py-16 sm:py-20 md:py-24 bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: "url('/hero-bg.png')" }}
     >
-      {/* Dark overlay for readability */}
-      <div className="absolute inset-0 " />
+      <div className="absolute inset-0" />
 
-      {/* Content wrapper */}
-      <div className="relative max-w-6xl mx-auto px-5 lg:px-8 -mt-5">
+      {/* ↓ Adjust top margin responsively (slightly higher on mobile) */}
+      <div className="relative max-w-6xl mx-auto px-5 lg:px-8 -mt-2 sm:-mt-4 md:-mt-5">
         <motion.div
           className="grid lg:grid-cols-2 gap-12 items-start"
           initial="hidden"
@@ -38,12 +38,12 @@ export default function PackageSection() {
         >
           {/* LEFT SIDE — Text Content */}
           <div className="space-y-6 text-left text-black">
-            <h1 className="text-4xl font-serif">
+            <h1 className="text-4xl md:text-4xl font-serif">
               Take Full Control of Your Digital Capital
             </h1>
 
-            <p className="text-gray-200 text-lg text-gray-900 leading-relaxed">
-              Your bitcoin isn't truely yours if it's held on an exchange. Real ownership means holding your own keys.
+            <p className="text-gray-900 text-lg leading-relaxed">
+              Your bitcoin isn't truly yours if it's held on an exchange. Real ownership means holding your own keys.
             </p>
             <p className="text-gray-900 text-lg leading-relaxed">
               We guide you step by step to build a self-custody framework that removes third-party dependence,
@@ -68,10 +68,7 @@ export default function PackageSection() {
             variants={fadeIn}
             viewport={{ once: true }}
           >
-            <h3 className="text-2xl font-serif  mb-8 text-white">
-              Get Access to:
-            </h3>
-
+            <h3 className="text-2xl font-serif mb-8 text-white">Get Access to:</h3>
             <div className="space-y-6">
               {items.map((item) => (
                 <div key={item.title} className="flex items-start gap-3">
