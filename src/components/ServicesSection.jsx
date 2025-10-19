@@ -62,34 +62,53 @@ const pillars = [
 export default function ServicesSection() {
   const [active, setActive] = useState(null);
   const containerRef = useRef(null);
+  
 
   const handleClick = (i) => {
+    const el = containerRef.current?.querySelector(`#pillar-${i}`);
+    if (!el) return;
+  
+    // If clicking the same item, just close it
     if (active === i) {
       setActive(null);
       return;
     }
-
-    const el = containerRef.current?.querySelector(`#pillar-${i}`);
-    const topOffset = 250; // buffer from top
-    const scrollToElement = () => {
-      if (el) {
-        const top = el.getBoundingClientRect().top + window.pageYOffset - topOffset;
-        window.scrollTo({ top, behavior: "smooth" });
-      }
-    };
-
+  
+    // If another item is open, close it first, then open and scroll to the new one
     if (active !== null && active !== i) {
-      scrollToElement();
       setActive(null);
-      setTimeout(() => setActive(i), 50);
-    } else {
-      setActive(i);
-      setTimeout(scrollToElement, 50);
+  
+      // Wait for collapse animation (matches your AnimatePresence duration)
+      setTimeout(() => {
+        setActive(i);
+  
+        // Wait a moment for expansion layout shift, then scroll accurately
+        setTimeout(() => {
+          const topOffset = window.innerWidth < 768 ? 170 : 200; // adjust if needed
+          const rect = el.getBoundingClientRect();
+          const top = rect.top + window.scrollY - topOffset;
+  
+          window.scrollTo({ top, behavior: "smooth" });
+        }, 400);
+      }, 400);
+  
+      return;
     }
+  
+    // If no other item is open, open and scroll
+    setActive(i);
+    setTimeout(() => {
+      const topOffset = window.innerWidth < 768 ? 170 : 200;
+      const rect = el.getBoundingClientRect();
+      const top = rect.top + window.scrollY - topOffset;
+      window.scrollTo({ top, behavior: "smooth" });
+    }, 400);
   };
+  
+  
 
   return (
-    <section className="py-20 bg-white relative overflow-hidden" ref={containerRef}>
+    <section className="py-20 bg-white relative overflow-hidden scroll-smooth" ref={containerRef}>
       <div className="max-w-6xl mx-auto px-6">
         {/* Words */}
         <div className="flex flex-wrap justify-center lg:justify-between gap-y-6 relative">
