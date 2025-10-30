@@ -17,7 +17,7 @@ export default function Contact() {
           name="description"
           content="Inquiries? Contact Granite Bitcoin directly."
         />
-        <link rel="canonical" href="https://granitebitcoin.com" />
+        <link rel="canonical" href="https://granitebitcoin.com/contact" />
       </Helmet>
     <section className="relative min-h-screen flex flex-col items-center justify-center text-center bg-gradient-to-tr from-black to-black/80 pt-24 pb-24 md:pt-32 md:pb-32 px-4">
       {/* Contact Form Card */}

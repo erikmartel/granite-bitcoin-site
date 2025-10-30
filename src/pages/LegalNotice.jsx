@@ -3,6 +3,15 @@ import { useEffect } from "react";
 export default function LegalNotice() {
   useEffect(() => { document.title = "Legal Notice | Granite Bitcoin Advisors"; }, []);
   return (
+    <>
+    <Helmet>
+            <title>Legal Notice from Granite Bitcoin Advisors</title>
+            <meta
+              name="description"
+              content="Legal Notices from Granite Bitcoin Advisors"
+            />
+            <link rel="canonical" href="https://granitebitcoin.com/legal" />
+          </Helmet>
     <div className="max-w-4xl mx-auto px-6 py-16 space-y-8">
       <h1 className="text-3xl font-bold">Legal Notice</h1>
 
@@ -70,5 +79,6 @@ export default function LegalNotice() {
         </p>
       </section>
     </div>
+    </>
   );
 }

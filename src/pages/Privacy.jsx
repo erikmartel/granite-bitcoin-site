@@ -3,6 +3,15 @@ import { useEffect } from "react";
 export default function Privacy() {
   useEffect(() => { document.title = "Privacy Policy | Granite Bitcoin Advisors"; }, []);
     return (
+        <>
+    <Helmet>
+            <title>Privacy Policy for Granite Bitcoin Advisors</title>
+            <meta
+              name="description"
+              content="Privacy Policy for Granite Bitcoin Advisors"
+            />
+            <link rel="canonical" href="https://granitebitcoin.com/privacy" />
+          </Helmet>
       <div className="max-w-4xl mx-auto px-6 py-16 space-y-8">
         <h1 className="text-3xl font-bold">Granite Bitcoin Advisors – Privacy Policy</h1>
         <p>
@@ -115,5 +124,6 @@ export default function Privacy() {
           <p>If you have any questions or concerns, reach out at <a href="mailto:contact@granitebitcoin.com" className="text-amber-600 underline">contact@granitebitcoin.com</a>.</p>
         </section>
       </div>
+      </>
     );
   }

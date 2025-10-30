@@ -45,10 +45,10 @@ export default function PackageSection() {
             <p className="text-gray-900 text-lg leading-relaxed">
               Your bitcoin isn't truly yours if it's held on an exchange. Real ownership means holding your own keys.
             </p>
-            <p className="text-gray-900 text-lg leading-relaxed">
+            <h2 className="text-gray-900 text-lg leading-relaxed">
               We guide you step by step to build a self-custody framework that removes third-party dependence,
               protects your wealth, and gives you peace of mind.
-            </p>
+            </h2>
 
             <div className="pt-4">
               <Link

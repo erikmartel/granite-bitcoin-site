@@ -5,6 +5,15 @@ export default function Terms() {
     document.title = "Terms of Service | Granite Bitcoin Advisors";
   }, []);
     return (
+        <>
+    <Helmet>
+            <title>Terms & Conditions for Granite Bitcoin Advisors</title>
+            <meta
+              name="description"
+              content="Terms & Conditions for Granite Bitcoin Advisors"
+            />
+            <link rel="canonical" href="https://granitebitcoin.com/terms" />
+          </Helmet>
       <div className="max-w-4xl mx-auto px-6 py-16 space-y-8">
         <h1 className="text-3xl font-bold">Granite Bitcoin Advisors – Terms of Service</h1>
         <p>
@@ -151,5 +160,6 @@ export default function Terms() {
           </p>
         </section>
       </div>
+      </>
     );
   }  

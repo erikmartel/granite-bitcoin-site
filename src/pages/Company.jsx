@@ -48,7 +48,7 @@ export default function Company() {
           name="description"
           content="Our Mission, Pillars, and Team"
         />
-        <link rel="canonical" href="https://granitebitcoin.com" />
+        <link rel="canonical" href="https://granitebitcoin.com/about" />
       </Helmet>
     
     <div className=" text-white overflow-hidden">

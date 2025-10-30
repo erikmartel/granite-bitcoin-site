@@ -36,7 +36,7 @@ export default function Services() {
           name="description"
           content="Bitcoin education and self-custody training for individuals and businesses. Learn. Save. Secure. Prosper."
         />
-        <link rel="canonical" href="https://granitebitcoin.com" />
+        <link rel="canonical" href="https://granitebitcoin.com/services" />
       </Helmet>
 
     <div className="bg-gray-50 text-gray-900 overflow-hidden">
