@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import BookingForm from "../components/BookingForm";
 import ServicesSection from "../components/ServicesSection";
+import { Helmet } from "react-helmet-async";
 
 export default function Home() {
   // subtle parallax
@@ -29,6 +30,15 @@ export default function Home() {
   };
 
   return (
+    <>
+      <Helmet>
+        <title>Granite Bitcoin Advisors | Bitcoin Education & Ownership Consulting</title>
+        <meta
+          name="description"
+          content="Understand, use, and secure Bitcoin properly. Personalized consulting and self-custody guidance for individuals and businesses."
+        />
+        <link rel="canonical" href="https://granitebitcoin.com" />
+      </Helmet>
     <div className="bg-gray-50 text-gray-900 overflow-hidden">
       {/* HERO SECTION */}
       <section className="relative h-[85vh] sm:h-[90vh] md:h-[95vh] flex flex-col items-center justify-start text-center overflow-hidden pt-20 md:pt-28">
@@ -121,5 +131,6 @@ export default function Home() {
         </div>
       </motion.section>
     </div>
+    </>
   );
 }

@@ -7,6 +7,7 @@ import PackageSection from "../components/PackageSection";
 import ProcessTimeline from "../components/ProcessTimeline";
 import AdditionalServices from "../components/AdditionalServices";
 import WhyChooseUs from "../components/WhyChooseUs";
+import { Helmet } from "react-helmet-async";
 
 export default function Services() {
   const [offsetY, setOffsetY] = useState(0);
@@ -28,8 +29,17 @@ export default function Services() {
   };
 
   return (
+    <>
+<Helmet>
+        <title>Bitcoin Education and Wallet Setup Trainings</title>
+        <meta
+          name="description"
+          content="Bitcoin education and self-custody training for individuals and businesses. Learn. Save. Secure. Prosper."
+        />
+        <link rel="canonical" href="https://granitebitcoin.com" />
+      </Helmet>
+
     <div className="bg-gray-50 text-gray-900 overflow-hidden">
- 
 
       {/* === PACKAGES SECTION === */}
       <motion.section
@@ -145,5 +155,6 @@ export default function Services() {
         </div>
       </motion.section>
     </div>
+    </>
   );
 }

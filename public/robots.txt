@@ -1,0 +1,17 @@
+# Granite Bitcoin - robots.txt
+# Last updated: 2025-10-27
+# This file tells search engines which parts of the site can be crawled and where to find the sitemap.
+
+User-agent: *
+Allow: /
+
+# Prevent indexing of temporary or private directories (common for React/Vite builds)
+Disallow: /node_modules/
+Disallow: /src/
+Disallow: /dist/
+Disallow: /assets/
+Disallow: /404
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://granitebitcoin.com/sitemap.xml

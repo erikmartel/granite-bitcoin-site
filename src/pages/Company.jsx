@@ -9,6 +9,7 @@ import {
   LaptopMinimalCheck
 } from "lucide-react";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet-async";
 
 export default function Company() {
   const fadeIn = {
@@ -40,6 +41,16 @@ export default function Company() {
   ];
 
   return (
+    <>
+      <Helmet>
+        <title>About Granite Bitcoin</title>
+        <meta
+          name="description"
+          content="Our Mission, Pillars, and Team"
+        />
+        <link rel="canonical" href="https://granitebitcoin.com" />
+      </Helmet>
+    
     <div className=" text-white overflow-hidden">
 
 {/* MISSION */}
@@ -169,5 +180,6 @@ export default function Company() {
 
 
     </div>
+    </>
   );
 }
