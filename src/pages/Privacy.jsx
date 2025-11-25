@@ -15,7 +15,7 @@ export default function Privacy() {
             <link rel="canonical" href="https://granitebitcoin.com/privacy" />
           </Helmet>
       <div className="max-w-4xl mx-auto px-6 py-16 space-y-8">
-        <h1 className="text-3xl font-bold">Granite Bitcoin Advisors – Privacy Policy</h1>
+        <h1 className="text-3xl font-bold">Privacy Policy</h1>
         <p>
           Granite Bitcoin Advisors (“Company,” “we,” “our,” or “us”) respects your privacy and is committed
           to protecting your personal information. This Privacy Policy explains how we collect, use, and

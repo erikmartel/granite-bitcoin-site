@@ -15,7 +15,7 @@ export default function Terms() {
             <link rel="canonical" href="https://granitebitcoin.com/terms" />
           </Helmet>
       <div className="max-w-4xl mx-auto px-6 py-16 space-y-8">
-        <h1 className="text-3xl font-bold">Granite Bitcoin Advisors – Terms of Service</h1>
+        <h1 className="text-3xl font-bold">Terms of Service</h1>
         <p>
           Welcome to Granite Bitcoin Advisors (“Granite Bitcoin LLC, GBA, Company,” “we,” “our,” or “us”). 
           These Terms of Service (“Terms”) govern your use of our website (granitebitcoin.com), services, 
