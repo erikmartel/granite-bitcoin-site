@@ -53,7 +53,7 @@ export default function WhyChooseUs() {
           <h2 className="text-4xl font-serif mb-4">Our Approach</h2>
           <p className="text-gray-300 text-lg leading-relaxed">
             Grounded in the same principles that define Bitcoin — transparency, resilience, and independence. 
-            We teach with simplicity and integrity so you can protect your wealth
+            We advise with simplicity and integrity so you can protect your wealth
             with clarity and control.
           </p>
 

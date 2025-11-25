@@ -1,9 +1,9 @@
-import { useEffect } from "react";
+
+import { Helmet } from "react-helmet-async";
+
 
 export default function Terms() {
-  useEffect(() => {
-    document.title = "Terms of Service | Granite Bitcoin Advisors";
-  }, []);
+
     return (
         <>
     <Helmet>

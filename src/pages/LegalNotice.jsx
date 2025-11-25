@@ -1,7 +1,6 @@
-import { useEffect } from "react";
+import { Helmet } from "react-helmet-async";
 
 export default function LegalNotice() {
-  useEffect(() => { document.title = "Legal Notice | Granite Bitcoin Advisors"; }, []);
   return (
     <>
     <Helmet>
@@ -22,14 +21,6 @@ export default function LegalNotice() {
           services to individuals and businesses on best practices to secure and manage their bitcoin.
           Our services are designed to help clients utilize publicly available open-source hardware,
           software, and other resources to securely manage their Bitcoin assets.
-        </p>
-      </section>
-
-      <section className="space-y-4">
-        <h2 className="text-xl font-semibold">No Hardware or Software Sales</h2>
-        <p>
-          We do not sell or resell hardware or software. Any recommendations we provide are for publicly
-          available, open-source solutions that clients may obtain directly from reputable vendors.
         </p>
       </section>
 

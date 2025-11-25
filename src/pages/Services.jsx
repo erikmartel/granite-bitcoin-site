@@ -133,7 +133,7 @@ export default function Services() {
         <AdditionalServices />
       </motion.section>
 
-      {/* CALL TO ACTION */}
+      {/* CALL TO ACTION 
       <motion.section
         className="py-10 bg-gray-50 text-gray-900 text-center"
         initial="hidden"
@@ -153,7 +153,7 @@ export default function Services() {
             Book Free Consultation
           </Link>
         </div>
-      </motion.section>
+      </motion.section>*/}
     </div>
     </>
   );
