@@ -145,7 +145,7 @@ export default function Company() {
         Founder & Principal Advisor
       </p>
       <p className="text-gray-100 text-md leading-relaxed">
-        After a decade in Bitcoin, Erik founded GBA with a passion for educating
+        Erik founded GBA with a passion for educating
         and empowering individuals to truly own their digital capital. With a
         background in software, cybersecurity, economics, and education, he
         provides practical, straightforward guidance to help clients gain
