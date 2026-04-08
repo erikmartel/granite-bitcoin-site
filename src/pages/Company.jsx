@@ -117,43 +117,6 @@ export default function Company() {
         </div>
       </motion.section>
 
-      {/* FOUNDER */}
-      {/* FOUNDER */}
-<motion.section
-  className="py-24 bg-gradient-to-tr from-black to-black/80 flex flex-col items-center"
-  initial="hidden"
-  whileInView="visible"
-  variants={fadeIn}
-  viewport={{ once: true }}
->
-  {/* Title */}
-  <h2 className="text-4xl font-serif text-white mb-10 text-center">
-    Meet the Founder
-  </h2>
-
-  {/* Wrapper for side padding on mobile */}
-  <div className="w-full px-6 sm:px-0">
-    {/* Frosted Glass Card */}
-    <div className="max-w-3xl w-full mx-auto bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl shadow-2xl p-10 text-center hover:bg-white/20 transition-all duration-300">
-      <img
-        src="/profile-pic.jpg"
-        alt="Founder"
-        className="w-40 h-40 mx-auto rounded-full mb-6 shadow-lg object-cover border-2 border-white/20"
-      />
-      <h3 className="text-4xl font-serif mb-2 text-white">Erik Martel</h3>
-      <p className="text-xl font-semibold text-gray-200 mb-6">
-        Founder & Principal Advisor
-      </p>
-      <p className="text-gray-100 text-md leading-relaxed">
-        Erik founded GBA with a passion for educating
-        and empowering individuals to truly own their digital capital. With a
-        background in software, cybersecurity, economics, and education, he
-        provides practical, straightforward guidance to help clients gain
-        confidence and financial sovereignty in our dynamic, digital world.
-      </p>
-    </div>
-  </div>
-</motion.section>
 
 
 {/* CALL TO ACTION */}
