@@ -70,7 +70,8 @@ export default function Company() {
   {/* Frosted glass mission card */}
   <div className="relative max-w-4xl mx-auto px-6">
     <div className="bg-black/60 backdrop-blur-lg border border-white/20 rounded-2xl shadow-lg p-10 md:p-14 hover:bg-black/80 transition-all duration-300">
-      <h1 className="text-4xl md:text-5xl font-serif mb-6 text-white">Our Mission</h1>
+      <p className="text-sm font-serif tracking-[0.25em] uppercase text-gray-300 mb-4">Our Mission</p>
+      <h1 className="text-4xl md:text-5xl font-serif mb-6 text-white">Own Bitcoin the way you were meant to</h1>
       <p className="text-lg md:text-xl text-gray-100 mb-4">
         At Granite Bitcoin, our mission is to empower you to own Bitcoin the way you were meant to — without risky reliance on third-parties.
       </p>

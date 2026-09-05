@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import BookingForm from "../components/BookingForm";
 import ServicesSection from "../components/ServicesSection";
+import HeroMist from "../components/HeroMist";
 import { Helmet } from "react-helmet-async";
 
 export default function Home() {
@@ -52,7 +53,8 @@ export default function Home() {
             backgroundPosition: "center 45%",
           }}
         />
-      
+
+        <HeroMist />
 
         <motion.div
           initial="hidden"
